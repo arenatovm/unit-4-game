@@ -1,5 +1,6 @@
 body {
-    background-image: url("C:\Users\arena\Desktop\MyBootCamp\BootCamp\Local\02-Homework\04-jquery\unit-4-game\assets\images\background.png");
+    background: url(https://static.collectui.com/shots/3258249/90-s-pattern-large) no-repeat;
+    background-size: 100%;
 }
 
 #header{
@@ -13,11 +14,28 @@ body {
     background-color: yellowgreen;
 }
 #goal{
-    width: 800px;
-    height: auto;
+    width: 100px;
+    height: 35px;
     background-color: aquamarine;
+    font-size: 1.8em;
 }
 .buttons {
     width: 100px;
     height: 100;
+}
+.buttons:hover{
+    background-color: aqua;
+}
+#score{
+    width: 100px;
+    height: 35px;
+    background: red;
+    font-size: 1.8em;
+    
+}
+.winsloses {
+    width: 600px;
+    height: 130px;
+    background: lightyellow;
+    font-size: 1.8em;
 }
