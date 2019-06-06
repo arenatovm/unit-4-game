@@ -1,4 +1,23 @@
-background {
-    background-image: ("background.png");
-    
+body {
+    background-image: url("C:\Users\arena\Desktop\MyBootCamp\BootCamp\Local\02-Homework\04-jquery\unit-4-game\assets\images\background.png");
+}
+
+#header{
+    text-align: center;
+    background: 860px;
+    background-color: blueviolet;
+    font-size:  5em;
+}
+#instructions {
+    background: 860px;
+    background-color: yellowgreen;
+}
+#goal{
+    width: 800px;
+    height: auto;
+    background-color: aquamarine;
+}
+.buttons {
+    width: 100px;
+    height: 100;
 }
